@@ -1,0 +1,26 @@
+.global_header {
+  padding: 30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-image: linear-gradient(45deg, #3b84e4, #af4261);
+  background-clip: text;
+  color: transparent;
+}
+
+.login_button_container {
+  & button {
+    margin: 5px;
+  }
+}
+
+.links_container {
+  display: flex;
+  justify-content: space-between;
+  & p {
+    margin: 5px;
+  }
+}
